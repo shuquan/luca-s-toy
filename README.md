@@ -55,3 +55,24 @@ luca.right(90)
 
 turtle.done()
 ```
+
+## Example 3: Draw a triangle
+
+### Code
+
+```python
+import turtle
+
+luca = turtle.Turtle()
+
+luca.forward(50)
+luca.right(120)
+
+luca.forward(50)
+luca.right(120)
+
+luca.forward(50)
+luca.right(120)
+
+turtle.done()
+```
