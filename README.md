@@ -10,11 +10,11 @@ How to inspire him? It's boring for kids to just type letters. [Turtle graphics]
 
 I hope Luca will like it. :)
 
-# Example 1: Draw a line
+## Example 1: Draw a line
 
 One of the simplest things we can do using the turtle module is to draw a line.
 
-## Code
+### Code
 
 ```python
 # Step 1: Make all the "turtle" commands available to us.
@@ -27,5 +27,31 @@ luca = turtle.Turtle()
 luca.forward(50)
 
 # Step 4: We're done!
+turtle.done()
+```
+
+## Example 2: Draw a square
+
+Lines are boring. We can rotate the turtle in order to draw more interesting figures.
+
+### Code
+
+```python
+import turtle
+
+luca = turtle.Turtle()
+
+luca.forward(50)
+luca.right(90)
+
+luca.forward(50)
+luca.right(90)
+
+luca.forward(50)
+luca.right(90)
+
+luca.forward(50)
+luca.right(90)
+
 turtle.done()
 ```
