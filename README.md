@@ -9,3 +9,23 @@ It's time for Luca to start his K2 in 2019 Sep. He learned 26 letters and a few 
 How to inspire him? It's boring for kids to just type letters. [Turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics) is a popular way to introduce young learners to programing. It was part of the original Logo programming language, which, according to Wikipedia, is an educational programming language Seymour Papert and others designed in 1967. Actually, I first encountered Logo when I was grade 4 in primary school. It's very cool to draw those fancy diagrams.
 
 I hope Luca will like it. :)
+
+# Example 1: Draw a line
+
+One of the simplest things we can do using the turtle module is to draw a line.
+
+## Code
+
+```python
+# Step 1: Make all the "turtle" commands available to us.
+import turtle
+
+# Step 2: Create a new turtle. We'll call it "luca"
+luca = turtle.Turtle()
+
+# Step 3: Move in the direction Luca's facing for 50 pixels
+luca.forward(50)
+
+# Step 4: We're done!
+turtle.done()
+```
